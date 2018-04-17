@@ -1,5 +1,5 @@
-import Attractions.Playground;
-import Visitors.Visitor;
+import Park.Attractions.Playground;
+import Park.Visitors.Visitor;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ public class PlaygroundTest {
 
     @Before
     public void before(){
-        playground1 = new Playground("Blobby Land");
+        playground1 = new Playground("Blobby Land", 8);
         mike = new Visitor("Mike", 26, 1.803, 60.00);
         simon = new Visitor("Simon", 14, 1.200, 50.00);
     }

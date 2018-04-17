@@ -1,5 +1,5 @@
-import Attractions.Dodgems;
-import Visitors.Visitor;
+import Park.Attractions.Dodgems;
+import Park.Visitors.Visitor;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ public class DodgemsTest {
 
     @Before
     public void before(){
-        dodge1 = new Dodgems("The Spine Splitter", 6.00);
+        dodge1 = new Dodgems("The Spine Splitter", 9, 6.00);
         mike = new Visitor("Mike", 26, 1.803, 60.00);
         simon = new Visitor("Simon", 11, 1.200, 50.00);
     }

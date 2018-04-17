@@ -1,5 +1,5 @@
-import Stalls.TobaccoStall;
-import Visitors.Visitor;
+import Park.Stalls.TobaccoStall;
+import Park.Visitors.Visitor;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ public class TobaccoStallTest {
 
     @Before
     public void before(){
-        tobaccoStall = new TobaccoStall("Cancer Sticks", "El Diablo", 10);
+        tobaccoStall = new TobaccoStall("Cancer Sticks", "El Diablo", 10, 10.00, 0);
         mike = new Visitor("Mike", 26, 1.803, 60.00);
         simon = new Visitor("Simon", 14, 1.200, 50.00);
     }

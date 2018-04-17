@@ -1,4 +1,4 @@
-import Visitors.Visitor;
+import Park.Visitors.Visitor;
 import org.junit.Before;
 import org.junit.Test;
 

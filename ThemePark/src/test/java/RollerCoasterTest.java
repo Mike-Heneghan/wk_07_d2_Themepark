@@ -1,5 +1,5 @@
-import Attractions.RollerCoaster;
-import Visitors.Visitor;
+import Park.Attractions.RollerCoaster;
+import Park.Visitors.Visitor;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ public class RollerCoasterTest {
 
     @Before
     public void before(){
-        rollercoaster1 = new RollerCoaster("The Spleen Buster", 6.00);
+        rollercoaster1 = new RollerCoaster("The Spleen Buster",10,  6.00);
         mike = new Visitor("Mike", 26, 1.803, 60.00);
         simon = new Visitor("Simon", 14, 1.200, 50.00);
     }

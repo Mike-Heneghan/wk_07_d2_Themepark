@@ -1,4 +1,4 @@
-import Attractions.Park;
+import Park.Attractions.Park;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ public class ParkTest {
 
     @Before
     public void before(){
-        park1 =  new Park("The Great Outdoors");
+        park1 =  new Park("The Great Outdoors", 6);
     }
 
     @Test
